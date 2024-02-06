@@ -1,0 +1,74 @@
+.tJson {
+  fill: none;
+  stroke: rgb(61, 60, 60);
+  stroke-linejoin: round;
+  stroke-width: 1.0px;
+}
+
+#map0 {
+  margin-bottom: -50px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#map1 {
+  margin-bottom: -50px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#map_dif {
+  margin-bottom: 0px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.cities {
+  font-size: 9px;
+  text-anchor: middle;
+  fill: gray;
+}
+
+.mapLegendText {
+  font-size: 10px;
+  text-anchor: end;
+
+}
+
+.mapLegendRect {
+  width: 10px;
+  height: 10px;
+
+}
+
+/* rect.selection {
+  fill: none;
+  stroke: black;
+  stroke-width: 2px;
+} */
+
+.brush rect.selection {
+  fill: none;
+  stroke: black;
+  stroke-width: 2px;
+  stroke-opacity: 0.5;
+}
+
+.rectBrush {
+  fill : none;
+  stroke : black;
+  stroke-width : 1px;
+}
+
+.lens rect.selection {
+  fill: none;
+  stroke: rgb(46, 46, 175);
+  stroke-width: 2px;
+  stroke-opacity: 0.8;
+}
+
+.rectLens {
+  fill : none;
+  stroke : rgb(46, 46, 175);
+  stroke-width : 3.5px;
+}

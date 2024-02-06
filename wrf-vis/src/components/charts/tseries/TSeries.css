@@ -1,0 +1,27 @@
+path.dp {
+    stroke: none;
+    fill-opacity: 0.3;
+}
+
+path.line {
+    fill: none;
+}
+
+.axisLabel {
+    font-size: 10px;
+    text-anchor: middle;
+}
+
+.lineChartText {
+    font-size: 12px;
+    text-anchor: start;
+}
+
+.legIcons {
+    cursor : pointer;
+}
+
+.legIconsContours {
+    cursor : pointer;
+    stroke-width: 1px;
+}

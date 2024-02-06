@@ -1,0 +1,10 @@
+.myDropdown a {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.myDropdown a:hover {
+        /* background: linear-gradient(135deg, #07a7e3 0%, #32dac3 100%); */
+        background: linear-gradient(to right, rgb(40, 48, 72), rgb(133, 147, 152));
+        color : white;
+}

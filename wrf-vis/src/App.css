@@ -1,0 +1,80 @@
+:root {
+    --bg-dark: #1A2F3A;
+    --bg-bright: #18121E;
+
+    --auxProcess-width: 230px;
+    /* --auxMeasure-width: 100px; */
+    --auxEvent-width: 440px;
+    --auxGlobalVar-width: 540px;
+
+    --nav-height: 60px;
+    --footer-height: 40px;
+
+    --shadow:
+    0 2px 23px 0 rgba(0, 0, 0, 0.1),
+    0 2px 49px 0 rgba(0, 0, 0, 0.06);
+
+    /* Mean and Prob */
+    --content-1-width: 490px;
+    --content-2-height: 450px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Layout em Grid */
+
+.app {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr var(--auxGlobalVar-width) var(--auxEvent-width) var(--auxProcess-width);
+    grid-template-rows:
+        var(--nav-height)
+        1fr
+        var(--footer-height);
+    grid-template-areas:
+        "menu aux_globalVar aux_event aux_process"
+        "content content content content"
+        "content content content content";
+        /* "footer footer footer footer"; */
+    height: 100vh;
+    background-color: #F5F5F5;
+}
+
+.aux_process {
+    grid-area: aux_process;
+}
+
+.aux_value {
+    grid-area: aux_value;
+}
+
+.aux_save {
+    grid-area: aux_save;
+}
+
+.aux_measure {
+    grid-area: aux_measure;
+}
+
+.aux_event {
+    grid-area: aux_event;
+}
+
+.aux_globalVar {
+    grid-area: aux_globalVar;
+}
+
+aside.menu-area {
+    grid-area: menu;
+}
+
+main.content {
+    grid-area: content;
+}
+
+footer.footer {
+    grid-area: footer;
+}

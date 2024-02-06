@@ -1,0 +1,38 @@
+#hmat {
+    text-align: center;
+    font-size: small;
+}
+
+.hmatTimeRect {
+    fill : none;
+    stroke: #0B2161;
+    /* stroke: none; */
+    stroke-width: 2px;
+}
+
+.hmatFrame {
+    fill : none;
+}
+
+.svg-heatmatrix {
+    margin-right: -100px;
+    overflow: visible;
+}
+
+/* Checkboxes */
+#checks {
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: xx-small;
+}
+
+#checkbox {
+    width: 0.7rem;
+    height: 0.7rem;
+    cursor: pointer;
+}
+
+.form-group {
+    display: flex;
+}

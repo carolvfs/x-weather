@@ -1,0 +1,21 @@
+aside.menu-area {
+    background-color: var(--bg-bright);
+    /* font-size: 0.9rem; */
+    font-size: 1.0rem;
+}
+
+/* links */
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 300;
+    padding: 5px 15px 10px 15px;
+    /* margin-left: auto; */
+    margin-top: 5px;
+}
+
+/* pretty gradients - uigradients */
+.menu a:hover {
+    background: linear-gradient(to right, rgb(40, 48, 72), rgb(133, 147, 152));
+} 

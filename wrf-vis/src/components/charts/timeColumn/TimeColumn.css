@@ -1,0 +1,10 @@
+.timeColumn {
+    stroke: black;
+    stroke-width: 0.5;
+    cursor : pointer;
+}
+
+.timeColumnText {
+    font-size: 10px;
+    text-anchor: start;
+}

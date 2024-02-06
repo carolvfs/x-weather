@@ -1,0 +1,23 @@
+{
+  "name": "wrf-server",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --max-old-space-size=4096 app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "csv-parser": "^2.3.2",
+    "d3": "^6.2.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "fast-sort": "^2.2.0",
+    "morgan": "~1.9.1",
+    "quantile": "^1.0.2",
+    "tdigest": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
